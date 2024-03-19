@@ -152,7 +152,6 @@ workflows:
       #           - master
 
       - release:
-          context: github
           requires:
             - prepare
             - build
