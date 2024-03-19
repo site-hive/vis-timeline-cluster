@@ -1175,6 +1175,13 @@ function (option, path) {
       <td>Cluster item tooltip, will replace <code>{count}</code> with the number of items in the cluster</td>
     </tr>
     <tr parent="cluster" class="hidden">
+      <td class="indent">cluster.renderContent</td>
+      <td>function or null</td>
+      <td><code>() => true</code></td>
+      <td>If specified, this replaces the count value of the cluster content. The signature of the renderContent function is:
+        <pre class="prettyprint lang-js">function renderContent(clusterItems: Object[]) : string.</pre></td>
+    </tr>
+    <tr parent="cluster" class="hidden">
       <td class="indent">cluster.clusterCriteria</td>
       <td>function or null</td>
       <td><code>() => true</code></td>

@@ -241,6 +241,7 @@ export type TimelineOptionsClusterCriteriaFunction = (firstItem: TimelineItem, s
 export type TimelineOptionsCluster = {
   titleTemplate?: string;
   maxItems?: number;
+  renderContent?: (clusterItems: any[]) => string;
   clusterCriteria?: TimelineOptionsClusterCriteriaFunction;
   showStipes?: boolean;
   fitOnDoubleClick?: boolean;
