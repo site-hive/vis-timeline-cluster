@@ -111,7 +111,7 @@ jobs:
       - run:
           name: Release
           command: |
-            npx semantic-release
+            exit 1
 
 workflows:
   version: 2
