@@ -1,5 +1,5 @@
 exports['Package Exported files 1'] = {
-  "name": "@site-hive/vis-timeline-cluster         ",
+  "name": "@site-hive/vis-timeline-cluster                    ",
   "files": [
     "        HISTORY.md",
     "        LICENSE.Apache-2.0.txt",
