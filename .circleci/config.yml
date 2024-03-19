@@ -152,6 +152,7 @@ workflows:
       #           - master
 
       - release:
+          context: aws
           requires:
             - prepare
             - build
