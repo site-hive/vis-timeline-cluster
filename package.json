@@ -1,6 +1,6 @@
 {
-  "name": "@site-hive/vis-timeline-cluster",
-  "version": "0.0.0-no-version",
+  "name": "@liam_sitehive/vis-timeline-cluster",
+  "version": "0.0.1",
   "description": "Create a fully customizable, interactive timeline with items and ranges.",
   "homepage": "https://visjs.github.io/vis-timeline/",
   "license": "(Apache-2.0 OR MIT)",
