@@ -110,7 +110,8 @@ jobs:
 
       - run:
           name: Release
-          command: npx semantic-release
+          command: |
+            npx semantic-release
 
 workflows:
   version: 2
