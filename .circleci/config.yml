@@ -139,17 +139,17 @@ workflows:
             - prepare
             - build
 
-      - gh_pages:
-          requires:
-            - prepare
-            - build
-            - examples
-            # - lint
-            - test
-          filters:
-            branches:
-              only:
-                - master
+      # - gh_pages:
+      #     requires:
+      #       - prepare
+      #       - build
+      #       - examples
+      #       # - lint
+      #       - test
+      #     filters:
+      #       branches:
+      #         only:
+      #           - master
 
       - release:
           requires:
